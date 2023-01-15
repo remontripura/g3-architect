@@ -3,8 +3,8 @@
     padding: 0;
     box-sizing: border-box;
 }
-.body{
-    font-family: 'Work Sans';
+.container{
+    font-family: 'inter';
 }
 /* ---------Header Style----------- */
 header{
@@ -108,7 +108,86 @@ header{
     width: 350px;
     height: 300px;
 }
+/* another feature style */
+.another-feature{
+    width:1200px;
+    margin: 130px auto;
+    display: flex;
+    gap: 50px;
+}
+.top-blog h3{
+    font-weight: 700;
+    font-size: 45px;
+    border-left: 3px solid #FF900E;
+    padding-left: 21px;
+}
+.another-feature-blog{
+    gap: 30px;
 
+}
+.bottom-blog{
+    margin-top: 30px;
+    padding: 20px;
+}
+.bottom-blog h4{
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.another-feature-button{
+    width: 300px;
+    padding: 10px 15px;
+    color: #FFFFFF;
+    background-color: #FF900E;
+    border-radius: 5px;
+    border: none;
+    display: flex;
+    justify-content: right;
+}
+.btn-title{
+    font-weight: 700;
+    font-size: 30px;
+}
+.btn-value{
+    font-weight: 500;
+    font-size: 25px;
+}
+.another-feature-image{
+    width: 100%;
+}
+/* Facts Styles */
+.facts{
+    width: 1200px;
+    margin: auto;
+}
+.fact-info{
+
+}
+.fact-title{
+    font-weight: 700;
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+.fact-details{
+    display: flex;
+    justify-content: space-around;
+}
+.fact-item{
+    margin-top: 70px;
+    text-align: center;
+    border: 1px solid #FF900E;
+    padding:15px 20px;
+    border-radius: 5px;
+
+}
+.facts .fact-item img{
+    width: 30px;
+    height: 30px;
+}
+.fact-item p{
+    font-weight: 600;
+    color: #727272;
+}
 
 
 
