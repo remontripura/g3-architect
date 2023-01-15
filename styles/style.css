@@ -65,9 +65,9 @@ header{
     margin-top: 50px;
 }
 .primary-button{
-    padding: 10px 15px;
+    padding: 15px 20px;
     font-weight: 600;
-    font-size: 20px;
+    font-size: 14px;
     color: #FFFFFF;
     background-color: #FF900E;
     border-radius: 5px;
@@ -75,8 +75,8 @@ header{
 }
 .banner img{
     margin-top: 50px;
-    width: 1200px;
-    height: 500px;
+    width: 1100px;
+    height: auto;
 }
 /* -----Section Style------ */
 .features{
@@ -84,19 +84,6 @@ header{
     justify-content: center;
     align-items: center;
     gap: 70px;
-}
-.feature-title, .feature-description{
-    margin-bottom: 30px;
-}
-.feature-blog .feature-title{
-    font-weight: 500;
-    font-size: 30px;
-}
-.style-a{
-    font-weight: 700;
-}
-.style-b{
-    color: #FF900E;
 }
 .feature-image{
     display: grid;
@@ -109,14 +96,29 @@ header{
     width: 350px;
     height: 300px;
 }
-/* ----------Another Feature Style */
+.style-a{
+    font-weight: 700;
+}
+.style-b{
+    color: #FF900E;
+}
+.feature-title, .feature-description{
+    margin-bottom: 30px;
+    color: #727272;
+}
+.feature-blog .feature-title{
+    font-weight: 500;
+    font-size: 30px;
+}
+
+/* ----------Another Feature Style--------------- */
 .another-feature{
     display: flex;
     gap: 50px;
 }
 .top-blog h3{
     font-weight: 700;
-    font-size: 45px;
+    font-size: 40px;
     border-left: 3px solid #FF900E;
     padding-left: 21px;
 }
@@ -124,9 +126,12 @@ header{
     gap: 30px;
 
 }
+.another-feature-blog p{
+    color: #727272;
+}
 .bottom-blog{
     margin-top: 30px;
-    padding: 20px;
+    padding: 10px;
 }
 .bottom-blog h4{
     font-weight: 600;
@@ -154,6 +159,12 @@ header{
     width: 100%;
 }
 /* ---------- Facts Styles---------- */
+.fact-info{
+    padding-right: 650px;
+}
+.fact-info p{
+    color: #727272;
+}
 .fact-title{
     font-weight: 700;
     font-size: 45px;
