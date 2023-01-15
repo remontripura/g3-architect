@@ -4,7 +4,8 @@
     box-sizing: border-box;
 }
 .container{
-    font-family: 'inter';
+    width: 1200px;
+    margin:120px auto;
 }
 /* ---------Header Style----------- */
 header{
@@ -80,8 +81,6 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 1100px;
-    margin: 130px auto 0;
     gap: 70px;
 }
 .feature-title, .feature-description{
@@ -110,8 +109,6 @@ header{
 }
 /* another feature style */
 .another-feature{
-    width:1200px;
-    margin: 130px auto;
     display: flex;
     gap: 50px;
 }
@@ -135,14 +132,13 @@ header{
     margin-bottom: 10px;
 }
 .another-feature-button{
-    width: 300px;
+    width: 250px;
     padding: 10px 15px;
     color: #FFFFFF;
     background-color: #FF900E;
     border-radius: 5px;
     border: none;
-    display: flex;
-    justify-content: right;
+    text-align: center;
 }
 .btn-title{
     font-weight: 700;
@@ -156,13 +152,6 @@ header{
     width: 100%;
 }
 /* Facts Styles */
-.facts{
-    width: 1200px;
-    margin: auto;
-}
-.fact-info{
-
-}
 .fact-title{
     font-weight: 700;
     font-size: 45px;
@@ -188,11 +177,36 @@ header{
     font-weight: 600;
     color: #727272;
 }
-
-
-
-
-
+/* Sponsor Style */
+.sponsor-info{
+    padding: 0 350px;
+    text-align: center;
+}
+.sponsor-info h3{
+    font-weight: 700;
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+.sponsor-info p{
+    color: #727272;
+}
+.sponsor-image{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+}
+.sponsor .sponsor-image img{
+    width: 130px;
+    height: 40px;
+}
+/* footer style */
+.copyright{
+    padding: 20px 20px;
+    text-align: center;
+    background-color: #FFF4E7;
+    border-radius: 5px;
+}
 
 
 
