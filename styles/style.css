@@ -3,18 +3,20 @@
     padding: 0;
     box-sizing: border-box;
 }
-.container{
-    width: 1200px;
-    margin:120px auto;
-}
 /* ---------Header Style----------- */
 header{
     background: #ff900e1a;
-    width: 100%;
+    width: 1400px;
+    margin: auto;
+}
+/* --------Container--------- */
+.container{
+    width: 1100px;
+    margin:120px auto;
 }
 /* ---------Navbar Style------------ */
 .nevbar{
-    width: 1200px;
+    width: 1100px;
     display: flex;
     justify-content: space-between;
     text-align: center;
@@ -39,7 +41,7 @@ header{
     font-size: 18px;
     color: #424242;
 }
-/* banner style */
+/* ----------Banner Style---------- */
 .banner{
     display: flex;
     flex-direction: column;
@@ -107,7 +109,7 @@ header{
     width: 350px;
     height: 300px;
 }
-/* another feature style */
+/* ----------Another Feature Style */
 .another-feature{
     display: flex;
     gap: 50px;
@@ -151,7 +153,7 @@ header{
 .another-feature-image{
     width: 100%;
 }
-/* Facts Styles */
+/* ---------- Facts Styles---------- */
 .fact-title{
     font-weight: 700;
     font-size: 45px;
@@ -177,7 +179,7 @@ header{
     font-weight: 600;
     color: #727272;
 }
-/* Sponsor Style */
+/* ------------ Sponsor Style------------- */
 .sponsor-info{
     padding: 0 350px;
     text-align: center;
@@ -200,17 +202,10 @@ header{
     width: 130px;
     height: 40px;
 }
-/* footer style */
+/* ----------Footer Style---------- */
 .copyright{
     padding: 20px 20px;
     text-align: center;
     background-color: #FFF4E7;
     border-radius: 5px;
 }
-
-
-
-
-
-
-
