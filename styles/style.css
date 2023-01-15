@@ -10,7 +10,8 @@
 /* ---------Header Style----------- */
 header{
     background: #ff900e1a;
-    width: 100%;
+    width: 1400px;
+    margin: auto;
 }
 /* ---------Navbar Style------------ */
 .nevbar{
@@ -199,6 +200,7 @@ header{
 .sponsor .sponsor-image img{
     width: 130px;
     height: 40px;
+    filter: grayscale(100%);
 }
 /* footer style */
 .copyright{
@@ -208,9 +210,17 @@ header{
     border-radius: 5px;
 }
 
+@media screen and (max-width:576px){
+    .nevbar{
+        flex-direction: column;
+        width: 100%;
+    }
+    .banner{
+        width: 100%;
+    }
+    .banner, .banner-img, img{
+        width: 100%;
+    }
 
 
-
-
-
-
+}
